@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>com.obadaro.jinah</groupId>
+		<version>1.0</version>
+	</parent>
+	
+	<artifactId>jinah-mail</artifactId>
+	<version>1.1.0</version>
+	<name>JINAH Mail lib</name>
+
+    <url>http://www.obadaro.com/jinah/jinah-mail</url>
+    
+    <licenses>
+      <license>
+        <name>Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      </license>
+    </licenses>
+    
+    <developers>
+      <developer>
+        <id>obadaro</id>
+        <name>Roberto Badaro</name>
+      </developer>
+    </developers>
+
+    <dependencies>	
+        <dependency>
+            <groupId>com.obadaro.jinah</groupId>
+            <artifactId>jinah-common</artifactId>
+	        <version>1.1.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1</version>
+            <scope>provided</scope>
+        </dependency>
+	</dependencies>
+	
+    <scm>
+        <connection>scm:git:git://github.com/jinah-project/jinah-mail.git</connection>
+        <developerConnection>scm:git:git@github.com:jinah-project/jinah-mail.git</developerConnection>
+        <url>https://github.com/jinah-project/jinah-mail</url>
+    </scm>
+	
+</project>
